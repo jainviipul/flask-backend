@@ -250,7 +250,7 @@ class ShoppingAssistantAPI:
         client = Client(api_key="6a7330c862cb8e9863311fdf80ecc13c31cc8f1a674bf8581f0a6c084a4282c2")
         product_details = {}
         print(mobile_list)
-        mobile_list = mobile_list[:1]
+        mobile_list = mobile_list[:2]
 
 
         def fetch_top_result(query, mobile, site):
