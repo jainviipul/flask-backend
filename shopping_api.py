@@ -5,7 +5,7 @@ import requests
 app = Flask(__name__)
 CORS(app)
 
-base_url = 'http://34.27.89.183'  
+base_url = 'http://34.27.89.183:5000'  
 @app.route('/api/start', methods=['POST'])
 def start_session():
     """Start a new shopping session with initial query"""
